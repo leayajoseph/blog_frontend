@@ -1,4 +1,5 @@
 import 'package:blog/pages/BlogApp.dart';
+import 'package:blog/pages/signup.dart';
 import 'package:blog/services/signupService.dart';
 import 'package:flutter/material.dart';
 
@@ -65,7 +66,7 @@ class _LoginPageState extends State<LoginPage> {
            SizedBox(height: 10,),
            ElevatedButton(onPressed: ()
            {
-
+             Navigator.push(context, MaterialPageRoute(builder: (context)=>signupPage()));
            }, child: Text("Sign up")),
            SizedBox(height: 10,),
 
