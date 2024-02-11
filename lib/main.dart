@@ -1,4 +1,5 @@
-import 'package:blog/pages/blog_app.dart';
+
+import 'package:blog/pages/login.dart';
 import 'package:flutter/material.dart';
 
 void main()
@@ -11,7 +12,7 @@ class blog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BlogApp(),
+      home: LoginPage(),
     );
   }
 }
